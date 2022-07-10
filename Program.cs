@@ -148,15 +148,6 @@
 
 // Найти произведение пар чисел в одномерно массиве. Пара - первый и последний элемент. Результат записать в новом массиве
 
-// int [] GenerateRandomArray(int min, int max)
-// {
-//     int[] RandomArray = new int[10];
-//     for (int i = 0; i < 10; i++)
-//     {
-//         RandomArray[i] = new Random().Next(min, max+1);
-//     }
-//     return RandomArray;
-// }
 // void ShowArray(int[] array)
 // {
 //  for (int i = 0; i < array.Length; i++)
@@ -165,12 +156,128 @@
 //  }  
 // }
 
-// int[] myArray = GenerateRandomArray(-9, 200);
+// int[] myArray = new int[10];
+//     for (int count = 0; count < myArray.Length; count++)
+//     {
+//         myArray[count] = new Random().Next(-9, 10);
+//     }
 // ShowArray(myArray);
 // int [] newArray = new int [5];
-// int index = 0;
+// int i = 0;
+// while (i < 5)
+//     {for (int index = 0; index < newArray.Length; index++)
+//         {
+//             newArray[index] = myArray[i] * myArray[myArray.Length - i];
+//             i++;
+//         }
+//     }
+// ShowArray(newArray);
+
+// Домашнее задание
+
+// Задать массив, заполненный случайными положительными трехзначными числами. Программа показывает количество четных чисел в массиве
+// int[] GenerateRandomArray(int[] RandomArray)
+// {
+//     for (int i = 0; i < RandomArray.Length; i++)
+//     {
+//         RandomArray[i] = new Random().Next(100, 1000);
+//     }
+//     return RandomArray;
+// }
+// void ShowArray(int[] array)
+// {
+//  for (int i = 0; i < array.Length; i++)
+//  {
+//      Console.Write(array[i] +" ");
+//  } 
+// }
+// void EvenNumbers(int[] newArray)
+// {int even = 0;
 // for (int i = 0; i < newArray.Length; i++)
 // {
-//     newArray[index] = myArray[i] * myArray[myArray.Length - i];
+//     if (newArray[i] % 2 == 0)
+//         even = even + 1;   
 // }
-// ShowArray(newArray);
+// Console.Write(even);
+// }
+
+// int[] myArray = new int[12];
+// GenerateRandomArray(myArray);
+// Console.Write("[ ");
+// ShowArray(myArray);
+// Console.Write("] -> ");
+// EvenNumbers(myArray);
+
+// Задать одномерный массив, заполненный случайными числами. Найти сумму нечетных элементов
+// int[] GenerateRandomArray(int[] RandomArray)
+// {
+//     for (int i = 0; i < RandomArray.Length; i++)
+//     {
+//         RandomArray[i] = new Random().Next(1, 10);
+//     }
+//     return RandomArray;
+// }
+// void ShowArray(int[] array)
+// {
+//  for (int i = 0; i < array.Length; i++)
+//  {
+//      Console.Write(array[i] +" ");
+//  }   
+// }
+// void NegSum(int[] newArray)
+// {int neg = 0;
+// for (int i = 0; i < newArray.Length; i++)
+// {
+//     if (newArray[i] % 2 != 0)
+//         neg = neg + newArray[i];   
+// }
+// Console.Write(neg);
+// }
+
+// int[] myArray = new int[5];
+// GenerateRandomArray(myArray);
+// Console.Write("[ ");
+// ShowArray(myArray);
+// Console.Write("] -> ");
+// NegSum(myArray);
+
+// Задать массив вещественных чисел.Найти разницу между максимальным и минимальным элементом массива
+int[] GenerateRandomArray(int[] RandomArray)
+{
+    for (int i = 0; i < RandomArray.Length; i++)
+    {
+        RandomArray[i] = new Random().Next(1, 10);
+    }
+    return RandomArray;
+}
+void ShowArray(int[] array)
+{
+ for (int i = 0; i < array.Length; i++)
+ {
+     Console.Write(array[i] +" ");
+ }   
+}
+void MinMax(int[] newArray)
+{
+    for (int i = 0; i < newArray.Length - 1; i++)
+    {
+        int minPosition = i;
+        
+
+        for (int count = i + 1; count < newArray.Length; count++)
+        {
+            if (newArray[count] < newArray[minPosition]) 
+            minPosition = count;
+        }
+        int temporary = newArray [i];
+        newArray[i] = newArray[minPosition];
+        newArray[minPosition] = temporary;
+    }
+}
+
+int[] myArray = new int[5];
+GenerateRandomArray(myArray);
+Console.Write("[ ");
+ShowArray(myArray);
+Console.Write("] -> ");
+MinMax(myArray);
