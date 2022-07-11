@@ -1,0 +1,30 @@
+C:\Users\Саша\Desktop\Знакомство с C#\Seminar5\bin\Debug\net6.0\Seminar5.exe
+C:\Users\Саша\Desktop\Знакомство с C#\Seminar5\bin\Debug\net6.0\Seminar5.deps.json
+C:\Users\Саша\Desktop\Знакомство с C#\Seminar5\bin\Debug\net6.0\Seminar5.runtimeconfig.json
+C:\Users\Саша\Desktop\Знакомство с C#\Seminar5\bin\Debug\net6.0\Seminar5.dll
+C:\Users\Саша\Desktop\Знакомство с C#\Seminar5\bin\Debug\net6.0\Seminar5.pdb
+C:\Users\Саша\Desktop\Знакомство с C#\Seminar5\obj\Debug\net6.0\Seminar5.csproj.AssemblyReference.cache
+C:\Users\Саша\Desktop\Знакомство с C#\Seminar5\obj\Debug\net6.0\Seminar5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Саша\Desktop\Знакомство с C#\Seminar5\obj\Debug\net6.0\Seminar5.AssemblyInfoInputs.cache
+C:\Users\Саша\Desktop\Знакомство с C#\Seminar5\obj\Debug\net6.0\Seminar5.AssemblyInfo.cs
+C:\Users\Саша\Desktop\Знакомство с C#\Seminar5\obj\Debug\net6.0\Seminar5.csproj.CoreCompileInputs.cache
+C:\Users\Саша\Desktop\Знакомство с C#\Seminar5\obj\Debug\net6.0\Seminar5.dll
+C:\Users\Саша\Desktop\Знакомство с C#\Seminar5\obj\Debug\net6.0\refint\Seminar5.dll
+C:\Users\Саша\Desktop\Знакомство с C#\Seminar5\obj\Debug\net6.0\Seminar5.pdb
+C:\Users\Саша\Desktop\Знакомство с C#\Seminar5\obj\Debug\net6.0\Seminar5.genruntimeconfig.cache
+C:\Users\Саша\Desktop\Знакомство с C#\Seminar5\obj\Debug\net6.0\ref\Seminar5.dll
+C:\Users\grano\OneDrive\Рабочий стол\GeekBrains\Знакомство с C#\Seminar5\bin\Debug\net6.0\Seminar5.exe
+C:\Users\grano\OneDrive\Рабочий стол\GeekBrains\Знакомство с C#\Seminar5\bin\Debug\net6.0\Seminar5.deps.json
+C:\Users\grano\OneDrive\Рабочий стол\GeekBrains\Знакомство с C#\Seminar5\bin\Debug\net6.0\Seminar5.runtimeconfig.json
+C:\Users\grano\OneDrive\Рабочий стол\GeekBrains\Знакомство с C#\Seminar5\bin\Debug\net6.0\Seminar5.dll
+C:\Users\grano\OneDrive\Рабочий стол\GeekBrains\Знакомство с C#\Seminar5\bin\Debug\net6.0\Seminar5.pdb
+C:\Users\grano\OneDrive\Рабочий стол\GeekBrains\Знакомство с C#\Seminar5\obj\Debug\net6.0\Seminar5.csproj.AssemblyReference.cache
+C:\Users\grano\OneDrive\Рабочий стол\GeekBrains\Знакомство с C#\Seminar5\obj\Debug\net6.0\Seminar5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\grano\OneDrive\Рабочий стол\GeekBrains\Знакомство с C#\Seminar5\obj\Debug\net6.0\Seminar5.AssemblyInfoInputs.cache
+C:\Users\grano\OneDrive\Рабочий стол\GeekBrains\Знакомство с C#\Seminar5\obj\Debug\net6.0\Seminar5.AssemblyInfo.cs
+C:\Users\grano\OneDrive\Рабочий стол\GeekBrains\Знакомство с C#\Seminar5\obj\Debug\net6.0\Seminar5.csproj.CoreCompileInputs.cache
+C:\Users\grano\OneDrive\Рабочий стол\GeekBrains\Знакомство с C#\Seminar5\obj\Debug\net6.0\Seminar5.dll
+C:\Users\grano\OneDrive\Рабочий стол\GeekBrains\Знакомство с C#\Seminar5\obj\Debug\net6.0\refint\Seminar5.dll
+C:\Users\grano\OneDrive\Рабочий стол\GeekBrains\Знакомство с C#\Seminar5\obj\Debug\net6.0\Seminar5.pdb
+C:\Users\grano\OneDrive\Рабочий стол\GeekBrains\Знакомство с C#\Seminar5\obj\Debug\net6.0\Seminar5.genruntimeconfig.cache
+C:\Users\grano\OneDrive\Рабочий стол\GeekBrains\Знакомство с C#\Seminar5\obj\Debug\net6.0\ref\Seminar5.dll
