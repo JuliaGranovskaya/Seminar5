@@ -242,42 +242,43 @@
 // NegSum(myArray);
 
 // Задать массив вещественных чисел.Найти разницу между максимальным и минимальным элементом массива
-int[] GenerateRandomArray(int[] RandomArray)
-{
-    for (int i = 0; i < RandomArray.Length; i++)
-    {
-        RandomArray[i] = new Random().Next(1, 10);
-    }
-    return RandomArray;
-}
-void ShowArray(int[] array)
-{
- for (int i = 0; i < array.Length; i++)
- {
-     Console.Write(array[i] +" ");
- }   
-}
-void MinMax(int[] newArray)
-{
-    for (int i = 0; i < newArray.Length - 1; i++)
-    {
-        int minPosition = i;
-        
+// int[] GenerateRandomArray(int[] RandomArray)
+// {
+//     for (int i = 0; i < RandomArray.Length; i++)
+//     {
+//         RandomArray[i] = new Random().Next(1, 10);
+//     }
+//     return RandomArray;
+// }
+// void ShowArray(int[] array)
+// {
+//  for (int i = 0; i < array.Length; i++)
+//  {
+//      Console.Write(array[i] +" ");
+//  }   
+// }
+// void MinMax(int[] newArray)
+// {
+//     int minPosition = 0;
+//     int maxPosition = 0;
+//     for (int i = 0; i < newArray.Length; i++)
+//     {
+//         if (newArray[i] < newArray[minPosition]) 
+//         minPosition = i;
 
-        for (int count = i + 1; count < newArray.Length; count++)
-        {
-            if (newArray[count] < newArray[minPosition]) 
-            minPosition = count;
-        }
-        int temporary = newArray [i];
-        newArray[i] = newArray[minPosition];
-        newArray[minPosition] = temporary;
-    }
-}
+//     }    
+//     for (int count = 0; count < newArray.Length; count++)
+//     {
+//         if (newArray[count] > newArray[maxPosition]) 
+//         maxPosition = count;
+//     }
+//     int difference = newArray[maxPosition] - newArray[minPosition];
+//     Console.Write(difference);
+// }
 
-int[] myArray = new int[5];
-GenerateRandomArray(myArray);
-Console.Write("[ ");
-ShowArray(myArray);
-Console.Write("] -> ");
-MinMax(myArray);
+// int[] myArray = new int[5];
+// GenerateRandomArray(myArray);
+// Console.Write("[ ");
+// ShowArray(myArray);
+// Console.Write("] -> ");
+// MinMax(myArray);
